@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style1.css">
+     <!-- <script src="domInfo.js" defer></script> -->
+     <script src="script.js" defer></script>
+    <title>Todo list</title>
+   
+</head>
+<body>
+    <header class="header">
+        <nav class="nav container">
+            <h1 class="myhead">My Todo</h1>
+            <!-- <ul class="nav-items">
+                <li class="nav-item"><a href="#home">Home</a></li>
+                <li class="nav-item"><a href="#todo">Todo</a></li>
+                <li class="nav-item"><a href="#sighup">Sign Up</a></li>
+            </ul> -->
+        </nav>
+        <div class="headline">
+            <h2 id="main-heading">Manage your task.</h2>
+            <!-- <button class="btn btn-headline">Learn More</button> -->
+            <a class="learnMore" href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjd3JuZ1Nv_AhULXX0KHSjzBWIYABABGgJzZg&ohost=www.google.com&cid=CAESbeD2Bv3_Gp8EuZACBryDFh1nF_qnKSDFrNMDOHkBvSQz96PZdQCg-t4y39A9IiZG4fBNeVZjVP0439snibimj1GIdZc62rHJXcVRzyq6Ltw2WP-Cr03mas3l7x1koy2XkwhwOiC2y8YxLIUGy_I&sig=AOD64_3Aye-INwXDlOvA7Y5_ht280ndNqg&q&adurl&ved=2ahUKEwjTjJWZ1Nv_AhXc-DgGHRnkB5YQ0Qx6BAgFEAE">learn more</a>
+        </div>
+    </header>
+    <section class="todo-section container">
+        <h2>Your plan for today ? </h2>
+
+        <form class="form-todo">
+            <input type="text" name="" id="" placeholder="Add Todo">
+            <input type="submit" value="Add Todo" class="btn">
+        </form>
+
+        <ul class="todo-list">
+            <li>
+               <span class="text">doing list below</span>
+               <div class="todo-buttons">
+                    <button class="todo-btn done">Done</button>
+                    <button class="todo-btn remove">Remove</button>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <section class="section-sighup container" >
+        <h2>Sign Up</h2>
+        <form class="signupform">
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username">
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password">
+            </div>
+
+            <div class="form-group">
+                <label for="confirmPassword">Confirm Password</label>
+                <input type="password" name="confirmPassword" id="confirmPassword">
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone</label>
+                <input type="number" name="phone" id="phone">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+            </div>
+
+            <div class="form-group">
+                <label for="about">About Yourself</label>
+                <textarea name="about" id="about" cols="30" rows="10"></textarea>
+            </div>
+            <button type="submit" class="btn signup-btn">Submit</button>
+        </form>
+    </section>
+</body>
+</html>
